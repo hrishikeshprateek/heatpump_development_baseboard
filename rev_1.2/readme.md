@@ -65,7 +65,3 @@ The **Raspberry Pi 4** communicates with the **ATMEGA328P** over **Serial1 (Rx1/
 - Implementing **hysteresis** for smooth switching.
 - Enhancing **error detection** and **failure alerts**.
 - Adding **mobile app integration** for remote monitoring.
-
----
-
-This documentation ensures a **detailed understanding** of the heater baseboard control system. Let me know if you need modifications! 🚀
