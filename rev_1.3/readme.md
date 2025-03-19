@@ -71,7 +71,7 @@ Expected Fix Behavior
 
 
 
-
+```cpp
 =====================
 
 Temperature: 33.40 °C | Target: 40.00 °C | Heater: ON | Fan PWM: 100
@@ -88,3 +88,4 @@ Target: 2025-03-15 12:07:52
 Recipe completed. Resetting system state.
 Status sent to Raspberry Pi
 Status sent to Raspberry Pi
+```
