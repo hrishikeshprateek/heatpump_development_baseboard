@@ -26,9 +26,9 @@ void completeRecipe() {
     
     // Save cleared state to EEPROM
     saveSystemState();
-}cpp```
+}```cpp
 
-Additional Fix: Reset prevHeater and prevFanSpeed
+### Additional Fix: Reset prevHeater and prevFanSpeed
 
 Before starting a new recipe, reset the heater and fan speed values to ensure they don’t retain the previous state’s incorrect values.
 
@@ -61,7 +61,7 @@ void loadSystemState() {
         resetSystemState();
     }
 }
-cpp```
+```cpp
 
 Expected Fix Behavior
 	•	When a recipe finishes, the heater and fan states will reset.
