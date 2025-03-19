@@ -68,3 +68,23 @@ Expected Fix Behavior
 	•	When a recipe finishes, the heater and fan states will reset.
 	•	When a new recipe is entered, it will start fresh without inheriting previous relay states.
 	•	No need to manually reset the ATmega328P anymore.
+
+
+
+
+=====================
+
+Temperature: 33.40 °C | Target: 40.00 °C | Heater: ON | Fan PWM: 100
+Humidity: 48.20% | Target: 80.00
+
+=== SYSTEM STATUS ===
+Temperature: 33.40°C / Target: 40.00°C
+Humidity: 48.20% / Target: 80.00%
+Time remaining: 2s
+RTC: 2025-03-15 12:07:50
+Target: 2025-03-15 12:07:52
+=====================
+
+Recipe completed. Resetting system state.
+Status sent to Raspberry Pi
+Status sent to Raspberry Pi
