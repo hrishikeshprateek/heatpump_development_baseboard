@@ -26,7 +26,8 @@ void completeRecipe() {
     
     // Save cleared state to EEPROM
     saveSystemState();
-}''
+}
+```
 
 Additional Fix: Reset prevHeater and prevFanSpeed
 
@@ -60,7 +61,8 @@ void loadSystemState() {
         Serial.println(F("No valid recipe to resume"));
         resetSystemState();
     }
-}```
+}
+```
 
 Expected Fix Behavior
 	•	When a recipe finishes, the heater and fan states will reset.
