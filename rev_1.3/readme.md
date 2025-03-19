@@ -26,7 +26,7 @@ void completeRecipe() {
     
     // Save cleared state to EEPROM
     saveSystemState();
-}```
+}''
 
 Additional Fix: Reset prevHeater and prevFanSpeed
 
